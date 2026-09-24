@@ -1,0 +1,5 @@
+• A frozen audit separates static mismatch from transition-adjusted value.
+• Technology changes information and control constraints, not outcomes alone.
+• Oracle benchmarks are retained without being treated as deployment effects.
+• Null and insufficient-evidence cases prevent a forced redesign narrative.
+• Heterogeneous case objectives are not pooled into a universal effect size.

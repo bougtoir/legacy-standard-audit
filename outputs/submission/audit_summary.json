@@ -1,0 +1,9 @@
+{
+  "audit_version": "1.0.0",
+  "failures": [],
+  "submission_time_actions": [
+    "Supply author names, affiliations, and corresponding-author details.",
+    "Complete the cover-letter date and corresponding-author signature.",
+    "Confirm competing interests and funding declarations."
+  ]
+}

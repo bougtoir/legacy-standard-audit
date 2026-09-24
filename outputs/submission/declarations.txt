@@ -1,0 +1,4 @@
+Funding: No project-specific funding statement supplied.
+Competing interests: Authors must confirm before submission.
+Ethics: Public secondary data and simulations only; no participants recruited.
+Generative AI: Devin, built by Cognition AI, supported code generation, document assembly, and consistency checks. Human authors retain responsibility for all sources, analyses, interpretations, and final text.

@@ -1,0 +1,1 @@
+Public data sources, retrieval metadata, local raw-snapshot paths, file sizes, SHA-256 hashes, and terms are listed in SOURCE_REGISTRY.csv. Analysis code, frozen case-selection records, and generated manuscript values accompany the submission repository. Copyrighted ISO sample material is not redistributed; its provenance and checksum are recorded.
