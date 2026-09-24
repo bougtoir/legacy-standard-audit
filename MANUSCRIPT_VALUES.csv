@@ -1,0 +1,75 @@
+value_id,case_id,metric,estimate,lower,upper,unit,analysis_output,generated_utc,format_spec,notes
+BE03_ENERGY_REDUCTION,BE03,fixed_schedule_energy_reduction,0.2566860465116279,0.18048526722985148,0.3485065957493669,fraction,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1%,Oracle occupancy response with ten-minute hold
+BE03_FALSE_OFF_FIXED,BE03,fixed_schedule_occupied_false_off,0,,,nominal minute-observations,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+BE03_CLASSIFICATION,BE03,case_classification,small_or_uncertain_mismatch,,,category,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,s,
+WK07_FIXED_AGE,WK07,training_selected_fixed_replacement_age,134,,,cycles,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.0f,
+WK07_STATIC_REGRET,WK07,fixed_vs_oracle_condition_static_regret,0.002499414778401026,0.002285095182676243,0.0027085073399464466,normalized cost per cycle,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.5f,
+WK07_RELATIVE_REGRET,WK07,fixed_vs_oracle_condition_relative_regret,0.3349215803057375,,,fraction,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1%,
+WK07_CLASSIFICATION,WK07,case_classification,material_mismatch_under_oracle_benchmark,,,category,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,s,
+UI01_SAVINGS_PER_MWH,UI01,interval_aware_procurement_savings,0.07184538041200994,0.06816241739091915,0.07574878320219654,EUR per MWh baseline load,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.3f,
+UI01_COST_REDUCTION,UI01,interval_aware_procurement_cost_reduction,0.001922451887077135,,,fraction,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.2%,
+UI01_CLASSIFICATION,UI01,case_classification,small_or_uncertain_mismatch,,,category,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,s,
+UI09_CALENDAR_APPLICATION,UI09,calendar_weekly_irrigation,121.68536658012549,,,mm per week,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.2f,
+UI09_OBJECTIVE_REGRET,UI09,calendar_vs_weather_adaptive_objective_regret,0.3686977651168869,0.317470074464359,0.3992389207742478,fraction,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1%,
+UI09_CLASSIFICATION,UI09,case_classification,material_mismatch_under_oracle_benchmark,,,category,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,s,
+TR01_PROXY_REDUCTION,TR01,responsive_allocation_delay_proxy_reduction,0.2720424771537744,0.22340720332793138,0.3103557863063679,fraction,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1%,Supplementary sensitivity; not a deployment effect
+TR01_CLASSIFICATION,TR01,case_classification,insufficient_evidence,,,category,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,s,
+NC01_CLASSIFICATION,NC01,case_classification,insufficient_evidence,,,category,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,s,
+NC03_OPTIMAL_RATIO,NC03,repeated_halving_optimal_aspect_ratio,1.4142135623730951,,,long side / short side,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.6f,
+NC03_SELF_SIMILARITY_LOSS,NC03,repeated_halving_self_similarity_loss,4.930380657631324e-32,,,squared ratio difference,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.3e,
+NC03_CLASSIFICATION,NC03,case_classification,no_mismatch_for_repeated_halving_objective,,,category,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,s,
+BE03_OBSERVATIONS,BE03,observations,20560,,,observations,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+BE03_FIXED_ON,BE03,fixed_on_nominal_minutes,6880,,,nominal minute-observations,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+BE03_ADAPTIVE_ON,BE03,adaptive_on_nominal_minutes,5114,,,nominal minute-observations,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+BE03_HOLD,BE03,occupancy_hold_minutes,10,,,minutes,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.0f,
+WK07_TRAINING_UNITS,WK07,training_units,100,,,simulated units,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.0f,
+WK07_EVALUATION_UNITS,WK07,evaluation_units,100,,,simulated units,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.0f,
+WK07_FIXED_RATE,WK07,evaluation_fixed_cost_rate,0.007462686567164179,,,normalized cost per cycle,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.5f,
+WK07_CONDITION_RATE,WK07,evaluation_oracle_condition_cost_rate,0.004963271788763153,,,normalized cost per cycle,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.5f,
+UI01_COMPLETE_DAYS,UI01,complete_days,725,,,days,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+UI01_FLEXIBLE_FRACTION,UI01,primary_flexible_fraction,0.01,,,fraction,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1%,
+UI01_SAVINGS_SHIFTED,UI01,savings_eur_per_shifted_mwh,14.629067742937522,,,EUR per shifted MWh,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.2f,
+UI09_TRAINING_WEEKS,UI09,training_weeks,135,,,weeks,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+UI09_EVALUATION_WEEKS,UI09,evaluation_weeks,135,,,weeks,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+UI09_ADAPTIVE_APPLICATION,UI09,adaptive_mean_application_mm_per_week,121.87053276489004,,,mm per week,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.2f,
+UI09_OVERAPPLICATION,UI09,calendar_overapplication_mm,1901.746575812477,,,mm over evaluation period,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1f,
+UI09_SHORTFALL,UI09,calendar_shortfall_mm,1926.7440107556904,,,mm over evaluation period,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1f,
+TR01_PAIRED_DAYS,TR01,paired_days,35,,,days,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+TR01_TRAINING_DAYS,TR01,training_days,17,,,days,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+TR01_EVALUATION_DAYS,TR01,evaluation_days,18,,,days,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,",d",
+TR01_STATIC_SHARE,TR01,static_green_share_first_direction,0.7516638430002949,,,fraction,outputs/analysis/case_results.json,2026-09-24T10:30:00Z,.1%,
+SENS_BE03_01,BE03,energy_reduction_fraction,0.07839250315372139,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,fixed_schedule_hours: 08:00-18:00
+SENS_BE03_02,BE03,energy_reduction_fraction,0.2566860465116279,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,fixed_schedule_hours: 07:00-19:00
+SENS_BE03_03,BE03,energy_reduction_fraction,0.37717695773961757,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,fixed_schedule_hours: 06:00-20:00
+SENS_WK07_04,WK07,static_regret_cost_per_cycle,0.0023275909153930513,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=2;lead=1
+SENS_WK07_05,WK07,static_regret_cost_per_cycle,0.0022309728155533943,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=2;lead=5
+SENS_WK07_06,WK07,static_regret_cost_per_cycle,0.002104668057085277,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=2;lead=10
+SENS_WK07_07,WK07,static_regret_cost_per_cycle,0.002596032878240683,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=5;lead=1
+SENS_WK07_08,WK07,static_regret_cost_per_cycle,0.002499414778401026,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=5;lead=5
+SENS_WK07_09,WK07,static_regret_cost_per_cycle,0.002373110019932909,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=5;lead=10
+SENS_WK07_10,WK07,static_regret_cost_per_cycle,0.003007362059108,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=10;lead=1
+SENS_WK07_11,WK07,static_regret_cost_per_cycle,0.002910743959268343,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=10;lead=5
+SENS_WK07_12,WK07,static_regret_cost_per_cycle,0.002784439200800226,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=10;lead=10
+SENS_WK07_13,WK07,static_regret_cost_per_cycle,0.003007362059108,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=20;lead=1
+SENS_WK07_14,WK07,static_regret_cost_per_cycle,0.002910743959268343,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=20;lead=5
+SENS_WK07_15,WK07,static_regret_cost_per_cycle,0.002784439200800226,,,normalized cost per cycle,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,failure_cost_ratio_and_lead: cost=20;lead=10
+SENS_UI01_16,UI01,procurement_savings_eur_per_mwh,0.035922690206004894,,,EUR per MWh baseline load,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,flexible_load_fraction: 0.005
+SENS_UI01_17,UI01,procurement_savings_eur_per_mwh,0.07184538041200994,,,EUR per MWh baseline load,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,flexible_load_fraction: 0.01
+SENS_UI01_18,UI01,procurement_savings_eur_per_mwh,0.3592269020600509,,,EUR per MWh baseline load,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,flexible_load_fraction: 0.05
+SENS_UI09_19,UI09,normalized_objective_regret_fraction,0.1887721623717185,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,calendar_estimator_and_shortfall_penalty: median;penalty=2
+SENS_UI09_20,UI09,normalized_objective_regret_fraction,0.3686977651168869,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,calendar_estimator_and_shortfall_penalty: median;penalty=5
+SENS_UI09_21,UI09,normalized_objective_regret_fraction,0.5390800324491152,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,calendar_estimator_and_shortfall_penalty: median;penalty=10
+SENS_UI09_22,UI09,normalized_objective_regret_fraction,0.1952978149297183,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,calendar_estimator_and_shortfall_penalty: mean;penalty=2
+SENS_UI09_23,UI09,normalized_objective_regret_fraction,0.40533607728783944,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,calendar_estimator_and_shortfall_penalty: mean;penalty=5
+SENS_UI09_24,UI09,normalized_objective_regret_fraction,0.5856066282171626,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,calendar_estimator_and_shortfall_penalty: mean;penalty=10
+SENS_TR01_25,TR01,responsive_allocation_proxy_reduction_fraction,0.2720424771537744,,,fraction,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,static_green_share: training_estimate
+SENS_NC03_26,NC03,repeated_halving_self_similarity_loss,4.930380657631324e-32,,,squared ratio difference,outputs/analysis/model_sensitivity.csv,2026-09-24T10:30:00Z,.6g,aspect_ratio: sqrt(2)
+CROSS_PRIMARY_CASES,CROSS,primary_cases,4,,,cases,outputs/analysis/cross_case_falsification.csv,2026-09-24T10:30:00Z,.0f,
+CROSS_MATERIAL_ORACLE_CASES,CROSS,material_oracle_mismatch_cases,2,,,cases,outputs/analysis/cross_case_falsification.csv,2026-09-24T10:30:00Z,.0f,
+DESIGN_CANDIDATES,DESIGN,candidate_universe_size,122,,,candidates,candidate_registry.csv,2026-09-24T10:30:00Z,.0f,
+DESIGN_DOMAINS,DESIGN,candidate_domains,12,,,domains,candidate_registry.csv,2026-09-24T10:30:00Z,.0f,
+DESIGN_FROZEN_CASES,DESIGN,frozen_case_count,7,,,cases,frozen_case_set.json,2026-09-24T10:30:00Z,.0f,
+DESIGN_VERIFIED_PRIOR_ART,DESIGN,doi_verified_prior_art_count,32,,,references,TFSC_prior_art_matrix.csv,2026-09-24T10:30:00Z,.0f,
+THRESHOLD_BE03,DESIGN,BE03_material_lower_bound,0.2,,,fraction,analysis_config.json,2026-09-24T10:30:00Z,.0%,
+THRESHOLD_WK07,DESIGN,WK07_material_relative_regret,0.05,,,fraction,analysis_config.json,2026-09-24T10:30:00Z,.0%,
+THRESHOLD_UI09,DESIGN,UI09_material_lower_bound,0.05,,,fraction,analysis_config.json,2026-09-24T10:30:00Z,.0%,

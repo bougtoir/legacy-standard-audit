@@ -1,0 +1,8 @@
+Case,Pre-specified metric,Estimate,95% interval,Classification
+BE03,Nominal lighting-energy reduction,25.7%,18.0%–34.9%,small or uncertain mismatch
+WK07,"Static regret, normalized cost/cycle",0.00250,0.00229–0.00271,material mismatch under oracle benchmark
+UI01,"Procurement saving, EUR/MWh baseline",0.072,0.068–0.076,small or uncertain mismatch
+UI09,Normalized objective regret,36.9%,31.7%–39.9%,material mismatch under oracle benchmark
+TR01,Delay-proxy reduction,27.2%,22.3%–31.0%,insufficient evidence
+NC01,Static/transition regret,Not estimated,Not estimated,insufficient evidence
+NC03,Repeated-halving loss,4.930e-32,Exact analytic result,no mismatch for repeated halving objective

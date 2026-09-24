@@ -1,0 +1,209 @@
+{
+  "freeze_version": "1.0",
+  "freeze_utc": "2026-09-24T09:55:00Z",
+  "selection_rule": "Evidence and design quality only; no confirmatory effect direction, magnitude, or statistical significance was inspected.",
+  "roles": {
+    "primary": [
+      "BE03",
+      "WK07",
+      "UI01",
+      "UI09"
+    ],
+    "supplementary": [
+      "TR01"
+    ],
+    "network_control": [
+      "NC01"
+    ],
+    "null_control": [
+      "NC03"
+    ]
+  },
+  "input_hashes": {
+    "candidate_registry.csv": "95f08ba9c466bd098513a33e693b516d881de45ef2980b3e2c99ccaaed79924c",
+    "case_selection_evidence.csv": "d48c36bbb97cf7e3ea435c7cb1cb0221213c4ea9f7dbd2452ec0f3a96fac0651",
+    "case_selection_protocol.md_prespecified_section": "d33a4dd1e758a7915467ebec1d39184d680ab576f7248b96002580c20256bd3e",
+    "research_inputs/selection_sources.csv": "3b29a9e987192daf6d9cb5a417f0c2dc0f35ee544806c6e67659544ad5c8501a"
+  },
+  "source_record_count": 18,
+  "frozen_cases": [
+    {
+      "candidate_id": "BE03",
+      "candidate_name": "Scheduled lighting",
+      "domain": "built_environment",
+      "role": "primary",
+      "scores": {
+        "historical_evidence_score": 3,
+        "technology_relevance_score": 3,
+        "decision_clarity_score": 3,
+        "current_data_score": 2,
+        "identifiability_score": 3,
+        "counterfactual_feasibility_score": 3,
+        "transition_cost_feasibility_score": 2,
+        "source_quality_score": 3,
+        "comparability_score": 3
+      },
+      "total_score": 25,
+      "exclusion_flag": null,
+      "selection_rationale": "Public minute-level occupancy data permit fixed-schedule and sensing-based lighting policies to be compared under explicit energy and false-off constraints.",
+      "preconfirmatory_limit": "One office-room dataset collected in 2015 limits external validity and no building switching-cost ledger is observed.",
+      "selection_source_ids": [
+        "SEL-BE03-DOE-SCHEDULES",
+        "SEL-BE03-UCI-DATA",
+        "SEL-BE03-UCI-META",
+        "SEL-BE03-UCI-PAPER"
+      ]
+    },
+    {
+      "candidate_id": "WK07",
+      "candidate_name": "Calendar preventive maintenance",
+      "domain": "work",
+      "role": "primary",
+      "scores": {
+        "historical_evidence_score": 3,
+        "technology_relevance_score": 3,
+        "decision_clarity_score": 3,
+        "current_data_score": 2,
+        "identifiability_score": 3,
+        "counterfactual_feasibility_score": 3,
+        "transition_cost_feasibility_score": 2,
+        "source_quality_score": 3,
+        "comparability_score": 3
+      },
+      "total_score": 25,
+      "exclusion_flag": null,
+      "selection_rationale": "NASA run-to-failure simulations permit fixed-age and condition-informed maintenance policies to be evaluated with common failure and maintenance-loss functions.",
+      "preconfirmatory_limit": "C-MAPSS is an older simulated benchmark and cannot establish realized fleet savings or safety outcomes.",
+      "selection_source_ids": [
+        "SEL-WK07-NASA-DATA",
+        "SEL-WK07-NASA-PAPER",
+        "SEL-WK07-NASA-PBM"
+      ]
+    },
+    {
+      "candidate_id": "UI01",
+      "candidate_name": "Flat electricity tariffs",
+      "domain": "utilities_infrastructure",
+      "role": "primary",
+      "scores": {
+        "historical_evidence_score": 3,
+        "technology_relevance_score": 3,
+        "decision_clarity_score": 3,
+        "current_data_score": 2,
+        "identifiability_score": 2,
+        "counterfactual_feasibility_score": 3,
+        "transition_cost_feasibility_score": 3,
+        "source_quality_score": 3,
+        "comparability_score": 3
+      },
+      "total_score": 25,
+      "exclusion_flag": null,
+      "selection_rationale": "Interval load and price data plus DOE evidence on AMI-enabled rates permit flat and time-varying tariff objectives to be compared with explicit distributional and transition constraints.",
+      "preconfirmatory_limit": "The system data end in 2020 and do not identify household behavioral response without external experimental evidence.",
+      "selection_source_ids": [
+        "SEL-UI01-DOE-RATES",
+        "SEL-UI01-OPSD-DATA"
+      ]
+    },
+    {
+      "candidate_id": "UI09",
+      "candidate_name": "Calendar irrigation schedules",
+      "domain": "utilities_infrastructure",
+      "role": "primary",
+      "scores": {
+        "historical_evidence_score": 3,
+        "technology_relevance_score": 3,
+        "decision_clarity_score": 3,
+        "current_data_score": 3,
+        "identifiability_score": 3,
+        "counterfactual_feasibility_score": 3,
+        "transition_cost_feasibility_score": 2,
+        "source_quality_score": 3,
+        "comparability_score": 3
+      },
+      "total_score": 26,
+      "exclusion_flag": null,
+      "selection_rationale": "FAO crop-water methods and complete daily meteorology permit calendar and weather-adaptive irrigation schedules to be compared under crop-water-deficit constraints.",
+      "preconfirmatory_limit": "Results will be a model-based agronomic counterfactual rather than an observed farm intervention.",
+      "selection_source_ids": [
+        "SEL-UI09-FAO56",
+        "SEL-UI09-NASA-POWER",
+        "SEL-UI09-SENSOR-REVIEW"
+      ]
+    },
+    {
+      "candidate_id": "TR01",
+      "candidate_name": "Fixed-time traffic signals",
+      "domain": "transport",
+      "role": "supplementary",
+      "scores": {
+        "historical_evidence_score": 3,
+        "technology_relevance_score": 3,
+        "decision_clarity_score": 3,
+        "current_data_score": 2,
+        "identifiability_score": 2,
+        "counterfactual_feasibility_score": 3,
+        "transition_cost_feasibility_score": 2,
+        "source_quality_score": 3,
+        "comparability_score": 3
+      },
+      "total_score": 24,
+      "exclusion_flag": null,
+      "selection_rationale": "FHWA definitions and complete NYC hourly count profiles permit a transparent pre-timed versus responsive signal-control sensitivity analysis.",
+      "preconfirmatory_limit": "The counts end in 2021 and cannot verify the deployed timing plan or all intersection geometry and safety constraints; no redesign recommendation is permitted.",
+      "selection_source_ids": [
+        "SEL-TR01-FHWA",
+        "SEL-TR01-NYC-DATA",
+        "SEL-TR01-NYC-META"
+      ]
+    },
+    {
+      "candidate_id": "NC01",
+      "candidate_name": "ISO shipping-container dimensions",
+      "domain": "null_controls",
+      "role": "network_control",
+      "scores": {
+        "historical_evidence_score": 3,
+        "technology_relevance_score": 2,
+        "decision_clarity_score": 2,
+        "current_data_score": 1,
+        "identifiability_score": 1,
+        "counterfactual_feasibility_score": 1,
+        "transition_cost_feasibility_score": 3,
+        "source_quality_score": 2,
+        "comparability_score": 2
+      },
+      "total_score": 17,
+      "exclusion_flag": null,
+      "selection_rationale": "ISO container dimensions provide a deliberately high-network-cost comparator where compatibility can rationally dominate technical re-optimization.",
+      "preconfirmatory_limit": "No universal current engineering objective or public asset-level transition ledger supports a quantitative redesign optimum.",
+      "selection_source_ids": [
+        "SEL-NC01-ISO668"
+      ]
+    },
+    {
+      "candidate_id": "NC03",
+      "candidate_name": "A-series paper proportions",
+      "domain": "null_controls",
+      "role": "null_control",
+      "scores": {
+        "historical_evidence_score": 3,
+        "technology_relevance_score": 1,
+        "decision_clarity_score": 3,
+        "current_data_score": 3,
+        "identifiability_score": 3,
+        "counterfactual_feasibility_score": 3,
+        "transition_cost_feasibility_score": 3,
+        "source_quality_score": 3,
+        "comparability_score": 2
+      },
+      "total_score": 24,
+      "exclusion_flag": null,
+      "selection_rationale": "ISO A-series paper provides an analytic null: the square-root-of-two aspect ratio preserves shape under halving and should remain optimal for that unchanged objective.",
+      "preconfirmatory_limit": "The result tests a narrow geometric objective and must not be generalized to all printing or document-use objectives.",
+      "selection_source_ids": [
+        "SEL-NC03-ISO216"
+      ]
+    }
+  ]
+}

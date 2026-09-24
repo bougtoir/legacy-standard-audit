@@ -1,0 +1,27 @@
+Case,Setting,Estimate,Unit
+BE03,fixed_schedule_hours: 08:00-18:00,0.0783925,fraction
+BE03,fixed_schedule_hours: 07:00-19:00,0.256686,fraction
+BE03,fixed_schedule_hours: 06:00-20:00,0.377177,fraction
+WK07,failure_cost_ratio_and_lead: cost=2;lead=1,0.00232759,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=2;lead=5,0.00223097,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=2;lead=10,0.00210467,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=5;lead=1,0.00259603,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=5;lead=5,0.00249941,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=5;lead=10,0.00237311,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=10;lead=1,0.00300736,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=10;lead=5,0.00291074,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=10;lead=10,0.00278444,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=20;lead=1,0.00300736,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=20;lead=5,0.00291074,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead: cost=20;lead=10,0.00278444,normalized cost per cycle
+UI01,flexible_load_fraction: 0.005,0.0359227,EUR per MWh baseline load
+UI01,flexible_load_fraction: 0.01,0.0718454,EUR per MWh baseline load
+UI01,flexible_load_fraction: 0.05,0.359227,EUR per MWh baseline load
+UI09,calendar_estimator_and_shortfall_penalty: median;penalty=2,0.188772,fraction
+UI09,calendar_estimator_and_shortfall_penalty: median;penalty=5,0.368698,fraction
+UI09,calendar_estimator_and_shortfall_penalty: median;penalty=10,0.53908,fraction
+UI09,calendar_estimator_and_shortfall_penalty: mean;penalty=2,0.195298,fraction
+UI09,calendar_estimator_and_shortfall_penalty: mean;penalty=5,0.405336,fraction
+UI09,calendar_estimator_and_shortfall_penalty: mean;penalty=10,0.585607,fraction
+TR01,static_green_share: training_estimate,0.272042,fraction
+NC03,aspect_ratio: sqrt(2),4.93038e-32,squared ratio difference

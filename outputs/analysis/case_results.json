@@ -1,0 +1,126 @@
+{
+  "analysis_version": "1.0.0",
+  "case_results": [
+    {
+      "adaptive_occupied_false_off_minutes": 0,
+      "adaptive_on_nominal_minutes": 5114,
+      "case_id": "BE03",
+      "classification": "small_or_uncertain_mismatch",
+      "energy_reduction_95_interval": [
+        0.18048526722985148,
+        0.3485065957493669
+      ],
+      "energy_reduction_fraction": 0.2566860465116279,
+      "fixed_occupied_false_off_minutes": 0,
+      "fixed_on_nominal_minutes": 6880,
+      "fixed_schedule": "weekdays 07:00-19:00",
+      "invalid_repeated_header_rows_removed": 2,
+      "limitation": "Adaptive policy is an oracle occupancy-responsive upper bound; sensor error, commissioning, lamp power, and installation cost are not observed.",
+      "normalized_objective_regret_per_observation": 0.08589494163424125,
+      "observations": 20560,
+      "occupancy_hold_minutes": 10,
+      "role": "primary"
+    },
+    {
+      "case_id": "WK07",
+      "classification": "material_mismatch_under_oracle_benchmark",
+      "condition_lead_cycles": 5,
+      "dataset_type": "simulated run-to-failure trajectories",
+      "evaluation_fixed_cost_rate": 0.007462686567164179,
+      "evaluation_oracle_condition_cost_rate": 0.004963271788763153,
+      "evaluation_units": 100,
+      "failure_to_preventive_cost_ratio": 5.0,
+      "limitation": "C-MAPSS is simulated and the condition policy has perfect remaining-life information; results compare policy classes rather than an observed maintenance program.",
+      "relative_regret_fraction": 0.3349215803057375,
+      "role": "primary",
+      "static_regret_95_interval": [
+        0.002285095182676243,
+        0.0027085073399464466
+      ],
+      "static_regret_cost_per_cycle": 0.002499414778401026,
+      "training_fixed_cost_rate": 0.007764670748096163,
+      "training_selected_fixed_age_cycles": 134,
+      "training_units": 100
+    },
+    {
+      "case_id": "UI01",
+      "classification": "small_or_uncertain_mismatch",
+      "complete_days": 725,
+      "limitation": "Observed day-ahead prices are held fixed while load is shifted. This is a partial-equilibrium technical upper bound, not an estimate of customer response or equilibrium wholesale-price effects.",
+      "primary_flexible_fraction": 0.01,
+      "procurement_cost_reduction_fraction": 0.001922451887077135,
+      "procurement_savings_eur_per_mwh": 0.07184538041200994,
+      "procurement_savings_eur_per_mwh_95_interval": [
+        0.06816241739091915,
+        0.07574878320219654
+      ],
+      "role": "primary",
+      "savings_eur_per_shifted_mwh": 14.629067742937522
+    },
+    {
+      "adaptive_mean_application_mm_per_week": 121.87053276489004,
+      "calendar_application_mm_per_week": 121.68536658012549,
+      "calendar_overapplication_mm": 1901.746575812477,
+      "calendar_shortfall_mm": 1926.7440107556904,
+      "case_id": "UI09",
+      "classification": "material_mismatch_under_oracle_benchmark",
+      "evaluation_weeks": 135,
+      "limitation": "The calendar comparator is trained from historical weekly reference-crop requirements and the adaptive policy has perfect weekly weather information. Crop coefficients, soil storage, application efficiency, and yield response are omitted.",
+      "normalized_objective_regret_95_interval": [
+        0.317470074464359,
+        0.3992389207742478
+      ],
+      "normalized_objective_regret_fraction": 0.3686977651168869,
+      "role": "primary",
+      "training_weeks": 135,
+      "transition_adjusted_break_even_mm_water_equivalent": 9608.72261883524
+    },
+    {
+      "case_id": "TR01",
+      "classification": "insufficient_evidence",
+      "directions": [
+        "EB",
+        "WB"
+      ],
+      "evaluation_days": 18,
+      "limitation": "The dataset provides roadway counts, not verified intersection geometry, deployed signal plans, saturation flows, pedestrian constraints, queues, or crashes. The result is a demand-allocation sensitivity only and cannot support redesign.",
+      "paired_days": 35,
+      "responsive_allocation_proxy_reduction_95_interval": [
+        0.22340720332793138,
+        0.3103557863063679
+      ],
+      "responsive_allocation_proxy_reduction_fraction": 0.2720424771537744,
+      "roadway_name": "31 AVENUE",
+      "role": "supplementary",
+      "selected_segment_id": 76510,
+      "static_green_share_first_direction": 0.7516638430002949,
+      "training_days": 17
+    },
+    {
+      "break_even_identity": "Replace only when discounted compatibility-adjusted operating benefit exceeds conversion, coordination, and stranded-asset cost.",
+      "case_id": "NC01",
+      "classification": "insufficient_evidence",
+      "limitation": "The public ISO metadata verifies the compatibility standard but contains no fleet, handling-network, conversion-cost, or alternative-design performance data.",
+      "role": "network_control",
+      "static_regret": null,
+      "transition_adjusted_regret": null
+    },
+    {
+      "case_id": "NC03",
+      "classification": "no_mismatch_for_repeated_halving_objective",
+      "limitation": "The null applies only to repeated-halving geometric similarity, not to screen use, printing economics, accessibility, or every paper-format objective.",
+      "objective": "preserve aspect ratio after halving parallel to the shorter side",
+      "optimal_aspect_ratio": 1.4142135623730951,
+      "proof": "r = 2/r implies r = sqrt(2) for positive aspect ratios",
+      "role": "analytic_null_control",
+      "self_similarity_loss": 4.930380657631324e-32
+    }
+  ],
+  "cross_case_constraints": {
+    "causal_population_claim": "not_supported",
+    "transition_adjusted_recommendations": "withheld unless case-specific switching and coordination costs are observed",
+    "universal_effect_size": "not_estimated"
+  },
+  "generated_utc": "2026-09-24T10:30:00Z",
+  "selection_freeze_sha256": "07fd1d1e2a4878eda2aab7e292f698a7b8232622645ff2544bb50e858cc05ea8"
+}

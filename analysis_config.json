@@ -1,0 +1,43 @@
+{
+  "analysis_version": "1.0.0",
+  "generated_utc": "2026-09-24T10:30:00Z",
+  "random_seed": 20260924,
+  "bootstrap_replicates": 2000,
+  "temporal_block_sizes": {
+    "BE03_days": 7,
+    "UI01_days": 7,
+    "UI09_weeks": 4,
+    "TR01_days": 7
+  },
+  "classification_thresholds": {
+    "BE03_lower_energy_reduction": 0.2,
+    "WK07_relative_regret": 0.05,
+    "UI09_lower_objective_regret": 0.05
+  },
+  "BE03": {
+    "schedule_start_hour": 7,
+    "schedule_end_hour": 19,
+    "occupancy_hold_minutes": 10,
+    "occupied_false_off_penalty": 10,
+    "schedule_sensitivity": [[8, 18], [7, 19], [6, 20]]
+  },
+  "WK07": {
+    "preventive_cost": 1,
+    "failure_cost_ratio": 5,
+    "condition_lead_cycles": 5,
+    "failure_cost_sensitivity": [2, 5, 10, 20],
+    "lead_cycle_sensitivity": [1, 5, 10]
+  },
+  "UI01": {
+    "primary_flexible_fraction": 0.01,
+    "flexible_fraction_sensitivity": [0.005, 0.01, 0.05]
+  },
+  "UI09": {
+    "training_years": [2015, 2016, 2017, 2018, 2019],
+    "evaluation_years": [2020, 2021, 2022, 2023, 2024],
+    "growing_season_start": "04-01",
+    "growing_season_end": "09-30",
+    "shortfall_penalty": 5,
+    "shortfall_penalty_sensitivity": [2, 5, 10]
+  }
+}

@@ -1,0 +1,8 @@
+Case,Role,Persisted input,Analysis unit,Contemporary comparator,Critical limitation
+BE03,Primary,UCI office occupancy,"20,560 minute-observations","Oracle occupancy control, 10-minute hold","No sensor error, power, commissioning, or installation cost"
+WK07,Primary,NASA C-MAPSS FD001 simulation,100 evaluation units,Perfect remaining-life condition policy,Simulated trajectories; no observed maintenance program
+UI01,Primary,OPSD load and day-ahead prices,725 complete days,1.0% bounded load shift,Fixed prices; no tariff assignment or customer response
+UI09,Primary,NASA POWER weather and FAO-56,135 evaluation weeks,Perfect-weather reference-crop requirement,"No crop coefficient, soil storage, efficiency, or yield model"
+TR01,Supplementary,NYC directional traffic counts,18 evaluation days,Demand-proportional directional allocation proxy,No verified intersection or deployed timing plan
+NC01,Network control,ISO container-standard metadata,Not estimable,Break-even identity only,"No fleet, conversion, or network-cost data"
+NC03,Analytic null,ISO 216 geometric principle,Exact analytic objective,Positive solution r = √2,Applies only to repeated-halving similarity

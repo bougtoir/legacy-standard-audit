@@ -1,0 +1,27 @@
+case_id,parameter,setting,metric,estimate,unit
+BE03,fixed_schedule_hours,08:00-18:00,energy_reduction_fraction,0.07839250315372139,fraction
+BE03,fixed_schedule_hours,07:00-19:00,energy_reduction_fraction,0.2566860465116279,fraction
+BE03,fixed_schedule_hours,06:00-20:00,energy_reduction_fraction,0.37717695773961757,fraction
+WK07,failure_cost_ratio_and_lead,cost=2;lead=1,static_regret_cost_per_cycle,0.0023275909153930513,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=2;lead=5,static_regret_cost_per_cycle,0.0022309728155533943,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=2;lead=10,static_regret_cost_per_cycle,0.002104668057085277,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=5;lead=1,static_regret_cost_per_cycle,0.002596032878240683,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=5;lead=5,static_regret_cost_per_cycle,0.002499414778401026,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=5;lead=10,static_regret_cost_per_cycle,0.002373110019932909,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=10;lead=1,static_regret_cost_per_cycle,0.003007362059108,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=10;lead=5,static_regret_cost_per_cycle,0.002910743959268343,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=10;lead=10,static_regret_cost_per_cycle,0.002784439200800226,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=20;lead=1,static_regret_cost_per_cycle,0.003007362059108,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=20;lead=5,static_regret_cost_per_cycle,0.002910743959268343,normalized cost per cycle
+WK07,failure_cost_ratio_and_lead,cost=20;lead=10,static_regret_cost_per_cycle,0.002784439200800226,normalized cost per cycle
+UI01,flexible_load_fraction,0.005,procurement_savings_eur_per_mwh,0.035922690206004894,EUR per MWh baseline load
+UI01,flexible_load_fraction,0.01,procurement_savings_eur_per_mwh,0.07184538041200994,EUR per MWh baseline load
+UI01,flexible_load_fraction,0.05,procurement_savings_eur_per_mwh,0.3592269020600509,EUR per MWh baseline load
+UI09,calendar_estimator_and_shortfall_penalty,median;penalty=2,normalized_objective_regret_fraction,0.1887721623717185,fraction
+UI09,calendar_estimator_and_shortfall_penalty,median;penalty=5,normalized_objective_regret_fraction,0.3686977651168869,fraction
+UI09,calendar_estimator_and_shortfall_penalty,median;penalty=10,normalized_objective_regret_fraction,0.5390800324491152,fraction
+UI09,calendar_estimator_and_shortfall_penalty,mean;penalty=2,normalized_objective_regret_fraction,0.1952978149297183,fraction
+UI09,calendar_estimator_and_shortfall_penalty,mean;penalty=5,normalized_objective_regret_fraction,0.40533607728783944,fraction
+UI09,calendar_estimator_and_shortfall_penalty,mean;penalty=10,normalized_objective_regret_fraction,0.5856066282171626,fraction
+TR01,static_green_share,training_estimate,responsive_allocation_proxy_reduction_fraction,0.2720424771537744,fraction
+NC03,aspect_ratio,sqrt(2),repeated_halving_self_similarity_loss,4.930380657631324e-32,squared ratio difference

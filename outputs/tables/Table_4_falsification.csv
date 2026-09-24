@@ -1,0 +1,8 @@
+Test,Omitted case,Primary retained,Material oracle,Uncertain/insufficient,Interpretation
+baseline primary classification count,,4,2,2,Classification count only; incomparable case outcomes are not pooled into a universal effect size.
+leave one case and domain out,BE03,3,2,1,No leave-one-out result licenses a population causal claim; the frozen cases are a designed audit set.
+leave one case and domain out,WK07,3,1,2,No leave-one-out result licenses a population causal claim; the frozen cases are a designed audit set.
+leave one case and domain out,UI01,3,2,1,No leave-one-out result licenses a population causal claim; the frozen cases are a designed audit set.
+leave one case and domain out,UI09,3,1,2,No leave-one-out result licenses a population causal claim; the frozen cases are a designed audit set.
+exclude simulated case,WK07,3,1,2,Source-quality sensitivity excluding C-MAPSS simulation.
+negative controls,,4,2,2,NC03 returns the pre-specified analytic null; NC01 remains unquantified because transition-cost evidence is absent.
