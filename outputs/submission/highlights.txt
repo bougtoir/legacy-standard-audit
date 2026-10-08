@@ -1,0 +1,5 @@
+• A frozen audit separates incumbent, static, and transition evidence.
+• Seven cases retain material, uncertain, null, and insufficient states.
+• Oracle and proxy benchmarks are not treated as deployed effects.
+• Heterogeneous objectives test portability but prohibit pooled effects.
+• Technical gaps cannot justify redesign without transition evidence.

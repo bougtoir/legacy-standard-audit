@@ -1,0 +1,128 @@
+{
+  "any_level_a": false,
+  "case_gates": [
+    {
+      "break_even_rule": "Present value of equipment, installation, commissioning, maintenance, communication, control, and sensor-error penalties must not exceed 1766 illuminated minute-observations, equivalent to 29.4333 kWh per kW of controlled load before valuation.",
+      "case_id": "BE03",
+      "gross_static_benefit_interval": [
+        1241.7386385413781,
+        2397.725378755644
+      ],
+      "gross_static_benefit_unit": "nominal illuminated minute-observations",
+      "gross_static_benefit_value": 1766.0,
+      "highest_evidence_level": "B",
+      "secondary_native_threshold": 29.433333333333334,
+      "secondary_native_unit": "kWh avoided per kW of controlled lighting load over the sample",
+      "transition_status": "threshold_only",
+      "unidentified_inputs": [
+        "controlled lighting power",
+        "electricity tariff",
+        "sensor false-positive and false-negative rates",
+        "room and fixture inventory",
+        "installation and commissioning requirements",
+        "maintenance and battery replacement",
+        "deployment horizon"
+      ]
+    },
+    {
+      "break_even_rule": "The amortized transition and operating burden must remain below 0.002499 preventive-replacement-cost units per cycle. A one-time system cost requires an identified fleet scale, exposure horizon, discount rate, and approved error-cost model.",
+      "case_id": "WK07",
+      "gross_static_benefit_interval": [
+        0.002285095182676243,
+        0.0027085073399464466
+      ],
+      "gross_static_benefit_unit": "preventive-replacement-cost units per operating cycle",
+      "gross_static_benefit_value": 0.002499414778401026,
+      "highest_evidence_level": "B",
+      "secondary_native_threshold": 0.3349215803057375,
+      "secondary_native_unit": "fraction of fixed-policy cost rate",
+      "transition_status": "threshold_only",
+      "unidentified_inputs": [
+        "sensor and data-system costs",
+        "integration and validation costs",
+        "false-alarm and missed-failure consequences",
+        "training and operating labor",
+        "certification and authorization pathway",
+        "fleet scale and operating horizon",
+        "safety and reliability valuation"
+      ]
+    },
+    {
+      "break_even_rule": "Incremental metering, ICT, control, contract, coordination, and participation burdens must remain below EUR 0.071845 per baseline MWh, or EUR 14.629 per shifted MWh, under the fixed-price 1% load-shifting arithmetic.",
+      "case_id": "UI01",
+      "gross_static_benefit_interval": [
+        0.06816241739091915,
+        0.07574878320219654
+      ],
+      "gross_static_benefit_unit": "EUR per baseline MWh",
+      "gross_static_benefit_value": 0.07184538041200994,
+      "highest_evidence_level": "B",
+      "secondary_native_threshold": 14.629067742937535,
+      "secondary_native_unit": "EUR per shifted MWh",
+      "transition_status": "threshold_only",
+      "unidentified_inputs": [
+        "meter and participant population",
+        "existing versus incremental AMI capability",
+        "control and communications costs",
+        "retail contract and settlement rules",
+        "customer adoption and rebound",
+        "market-price and network response",
+        "deployment horizon"
+      ]
+    },
+    {
+      "break_even_rule": "Transition burden must remain below 9608.723 objective units over the evaluation sample. Because the objective embeds a fivefold shortfall penalty, this quantity is not physical water savings and cannot be monetized without crop-, soil-, system-, area-, efficiency-, yield-, and price-specific evidence.",
+      "case_id": "UI09",
+      "gross_static_benefit_interval": [
+        8273.665245412893,
+        10404.663145019918
+      ],
+      "gross_static_benefit_unit": "millimetre-equivalent objective units over 135 evaluation weeks",
+      "gross_static_benefit_value": 9608.722618835238,
+      "highest_evidence_level": "B",
+      "secondary_native_threshold": 71.17572310248325,
+      "secondary_native_unit": "millimetre-equivalent objective units per evaluation week",
+      "transition_status": "threshold_only",
+      "unidentified_inputs": [
+        "crop coefficient and growth stage",
+        "root-zone soil-water storage",
+        "irrigation-system efficiency and uniformity",
+        "field area and flow measurement",
+        "yield response and shortfall consequences",
+        "equipment installation maintenance and telemetry",
+        "useful life and local water valuation"
+      ]
+    }
+  ],
+  "decision": "No case reaches Level A. Transition analysis is therefore an evidence gate: it reports the maximum burden consistent with each frictionless benchmark and identifies the measurements required before redesign can be recommended.",
+  "discount_reference": {
+    "application": "Sensitivity reference only; not applied because compatible cash flows and useful lives are unidentified.",
+    "nominal_percent_by_maturity_years": {
+      "10": 3.7,
+      "20": 4.0,
+      "3": 3.4,
+      "30": 4.1,
+      "5": 3.5,
+      "7": 3.6
+    },
+    "real_percent_by_maturity_years": {
+      "10": 1.6,
+      "20": 2.0,
+      "3": 1.1,
+      "30": 2.0,
+      "5": 1.3,
+      "7": 1.4
+    },
+    "source_id": "TR-CROSS-OMB-A94"
+  },
+  "evidence_level_definitions": {
+    "A": "Case-compatible empirical transition-cost evidence permitting a justified transition-adjusted estimate.",
+    "B": "Credible but insufficiently case-specific evidence permitting threshold or break-even analysis only.",
+    "C": "Weak, duplicate, or non-comparable evidence that cannot support a transition-cost inference."
+  },
+  "source_counts": {
+    "A": 0,
+    "B": 11,
+    "C": 2
+  }
+}

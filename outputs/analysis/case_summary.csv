@@ -1,0 +1,8 @@
+case_id,role,classification,limitation
+BE03,primary,small_or_uncertain_mismatch,"Adaptive policy is an oracle occupancy-responsive upper bound; sensor error, commissioning, lamp power, and installation cost are not observed."
+WK07,primary,material_mismatch_under_oracle_benchmark,C-MAPSS is simulated and the condition policy has perfect remaining-life information; results compare policy classes rather than an observed maintenance program.
+UI01,primary,small_or_uncertain_mismatch,"Observed day-ahead prices are held fixed while load is shifted. This is a partial-equilibrium technical upper bound, not an estimate of customer response or equilibrium wholesale-price effects."
+UI09,primary,material_mismatch_under_oracle_benchmark,"The calendar comparator is trained from historical weekly reference-crop requirements and the adaptive policy has perfect weekly weather information. Crop coefficients, soil storage, application efficiency, and yield response are omitted."
+TR01,supplementary,insufficient_evidence,"The dataset provides roadway counts, not verified intersection geometry, deployed signal plans, saturation flows, pedestrian constraints, queues, or crashes. The result is a demand-allocation sensitivity only and cannot support redesign."
+NC01,network_control,insufficient_evidence,"The public ISO metadata verifies the compatibility standard but contains no fleet, handling-network, conversion-cost, or alternative-design performance data."
+NC03,analytic_null_control,no_mismatch_for_repeated_halving_objective,"The null applies only to repeated-halving geometric similarity, not to screen use, printing economics, accessibility, or every paper-format objective."

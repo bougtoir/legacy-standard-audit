@@ -1,0 +1,11 @@
+data/raw/**
+!data/raw/frameworks/
+!data/raw/frameworks/**
+data/raw/frameworks/NIST_FACTS_2013_2026-09-24.html
+!data/raw/prior_art/
+!data/raw/prior_art/**
+data/derived/**
+outputs/rendered/
+.venv/
+__pycache__/
+.pytest_cache/

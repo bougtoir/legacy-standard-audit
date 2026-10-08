@@ -1,0 +1,17 @@
+summary_type,name,count
+artifact,outputs/figures/Figures_editable.pptx,4
+artifact,outputs/manuscript/manuscript_anonymized.docx,47
+artifact,outputs/submission/cover_letter.docx,2
+artifact,outputs/submission/graphical_abstract_editable.pptx,2
+artifact,outputs/submission/highlights.txt,3
+artifact,outputs/tables/Tables_editable.docx,21
+artifact,outputs/tables/Tables_editable.pptx,1
+term,adaptive,6
+term,benefit,1
+term,improvement,6
+term,material,37
+term,optimal_or_optimum,5
+term,oracle,22
+term,redesign,13
+term,regret,14
+term,saving,8
